@@ -1,0 +1,4 @@
+/* Re-export SunEditor CSS */
+@import 'suneditor/dist/css/suneditor.min.css';
+/* Custom styles */
+@import './components/SunEditor.css';

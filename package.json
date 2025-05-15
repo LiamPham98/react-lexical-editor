@@ -1,0 +1,17 @@
+{
+  "name": "editor-react-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "publish:editor": "cd packages/editor && npm publish --access public"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.0"
+  }
+} 
